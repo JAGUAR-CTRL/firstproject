@@ -1,0 +1,355 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    max-width: 1040px;
+    margin: 0px auto;
+}
+
+.a{
+    color: #fff;
+}
+
+.a:hover{
+    text-decoration: none;
+}
+#logo{
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(187, 187, 187);
+}
+
+#img-btn{
+    max-height: 40px;
+    display: block;
+}
+
+header{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ist-section{
+    margin-top: 32px;
+    padding-top: 15px 76px 50px 76px;
+    height: 580px;
+    background-color: rgb(60, 6, 94);
+}
+
+.grid-one{
+    letter-spacing: 0.2px;
+    margin-top: 45px;
+    color: rgb(255,255,255);
+    font-size: 17px;
+}
+.grid-one h1{
+    font-weight: 600;
+    font-size: 45px;
+line-height: 60px;
+}
+.grid-two{
+
+    text-shadow: 10px 10px 10px blue;
+}
+
+.ist-section-two{
+    padding-right:76px;
+    padding-bottom: 50px ;
+    padding-left: 76px;
+    display:grid;
+    grid-template-columns: 31fr 31fr;
+    gap: 200px;
+    align-items: center;
+}
+
+.header-btn{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-radius: 300px;
+    text-decoration: none;
+    padding: 11px 55px;
+    background-color: rgb(40, 186, 253);
+}
+.header-btn:hover{
+    transition: background-color 0.5s;
+    background-color: rgb(28, 130, 177);
+}
+
+/* This is the second section */
+
+.nd-section{
+    max-height: 827px;
+}
+
+.nd-section-one h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 52px;
+}
+
+.nd-section-one p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#gfc1{
+    background-color: rgb(41, 183, 221);
+}
+
+#gfc2{
+    background-color: rgb(139, 114, 238);
+}
+
+#gfc3{
+    background-color: rgb(93, 59, 231);
+}
+
+#gfc4{
+    background-color: rgb(189, 114, 239);
+}
+
+.grid-four-children{
+    height: 253px;
+    width: 225px;
+}
+
+.nd-section-two{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.grid-four{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#nd-section-three-p{
+    margin-bottom: 53px;
+    margin-top: 27px;
+    text-align: center;
+}
+
+#b{
+    color: black;
+}
+#b:hover{
+    text-decoration: none;
+}
+
+/* This is the third section */
+.trd-section{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: 667px;
+    background-color: rgb(59, 6, 94);
+}
+.grid-five{
+    padding-left: 83px;
+}
+.grid-five h2{
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+    font-size: 52px;
+    margin-top: 77px;
+}
+.grid-five-img{
+    margin-top: 10px;
+    justify-self: center;
+    height: 411px;
+    width: 530px;
+}
+.grid-five-p{
+    color: #fff;
+    padding-top: 27px;
+}
+
+.grid-six{
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    padding: 90px;
+}
+
+.grid-six dt{
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    right: 50px;
+}
+
+.ltsp{
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+.ltsp:hover{
+    color: #bbb;
+}
+
+/* Fourth section */
+.frth-section{
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+
+.frth-section p{
+    line-height: 30px;
+}
+.frth-section-p{
+    position: relative;
+    top: 10px;
+}
+.grid-seven{
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
+    margin-top: 70px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.grid-seven h2{
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 45px;
+    color: rgb(41, 183, 221);
+}
+
+.b{
+    color: rgb(41, 183, 221);
+
+}
+.hd4{
+    position: relative;
+    top: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eith-section{
+    padding: 90px;
+    align-items: center;
+    height:476px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.line{
+    height:6px;
+    width:100px;
+    background-color: rgb(41, 183, 221);
+}
+
+.eith-section-one h2{
+    font-size: 45px;
+    font-weight: 300;
+}
+
+#p1{
+    font-size: 16px;
+    color: rgba(123, 109, 109, 0.6);
+}
+
+#p2{
+    font-size: 16px;
+    color: rgba(123, 109, 109, 1.0);
+}
+.nth-section{
+    color: #fff;
+    padding-top: 85px;
+    text-align: center;
+    height: 615px;
+    background-color: rgb(59, 6, 94);
+}
+
+.nth-section h2{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.nth-section p{
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.flexbox-a{
+    padding-top: 30px;
+    padding: 0 auto;
+    background-color: #ffffff;
+    height: 293px;
+    width: 265px;
+}
+.flexbox-a p{
+    color: black;
+}
+.flex-one{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+}
+
+.circle{
+    margin: 0 auto;
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    border: 3px solid rgb(217, 217, 217);
+}
+
+
+footer{
+    font-size: small;
+    text-align: center;
+    height: 241px;
+    color: rgb(235, 255, 255);
+    background-color: rgb(51, 51, 51);
+}
+
+footer a{
+    color: rgb(41, 183, 221);
+}
+footer a:hover{
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
+
+#footer-p{
+    padding-top: 55px;
+    padding-bottom: 102px;
+}
